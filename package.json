@@ -2,7 +2,7 @@
   "name": "hw2-starter-repo",
   "version": "1.0.0",
   "description": "This is the starter repo for hw1",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest"
   },
