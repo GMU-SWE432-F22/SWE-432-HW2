@@ -19,7 +19,7 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ## Deploying to Heroku
 
-Check out [our instructions]() for deploying your application to Heroku. you can use the button below for quick access to your Heroku account.
+Check out [our instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/github-heroku-instructions) for deploying your application to Heroku. you can use the button below for quick access to your Heroku account.
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
