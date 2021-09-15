@@ -45,7 +45,7 @@ After executing these commands, your app should now be running on [localhost:300
 
 Currently, this repo is set up to run the Jest tests in the `app.test.js` file upon each commit to the `main` branch of the repository. If any of the tests fail, the CI process will fail and this will be indicated with red "X" on the main page of your repo, and GitHub will likely also send you a notification email that your automated tests have failed.
 
-Currently, the tests are configured to run by getting deployed to a remote virtual server with an Ubuntu operating system, and the `npm install` and `npm test` commands are executed. we don't anticpate you needing to change this configuration, as it is fine to keep all of your tests in the `app.test.js` for this assignment. 
+Currently, the tests are configured to run by getting deployed to a remote virtual server with an Ubuntu operating system, where the `npm install` and `npm test` commands are executed. we don't anticpate you needing to change this configuration, as it is fine to keep all of your tests in the `app.test.js` for this assignment. 
 
 We expect that all of your (at least) 12 unit tests will have passed via the command line by the time you turn in the assignment.
 
