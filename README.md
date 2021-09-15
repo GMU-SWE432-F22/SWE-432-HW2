@@ -6,8 +6,8 @@
 
 *Please fill in this information before submission*
 
-**Student Name:** 
-**Student G-Number:** 
+* **Student Name:** 
+* **Student G-Number:** 
 
 ### Documentation of your 7 Scenarios
 
