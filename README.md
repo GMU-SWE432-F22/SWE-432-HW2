@@ -30,7 +30,7 @@ You can find the deatiled instructions for HW Assignment #2 on the [course webpa
 
 Make sure you have [Node.js](http://nodejs.org/) and (optionally) the [Heroku CLI](https://cli.heroku.com/) installed. You only need the Heroku CLI installed if you plan to deploy the project from the CLI instead of the Heroku web interface. See the [HW Assignment #2 instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/hw2) for more details.
 
-*Note the following commands assume a Unix-based enviornment. If you are on windows, you may need to use Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/about).
+*Note the following commands assume a Unix-based enviornment. If you are on windows, you may need to use Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/about).*
 
 ```sh
 $ git clone <this-repo> # or clone your own fork
