@@ -49,6 +49,8 @@ Currently, the tests are configured to run by getting deployed to a remote virtu
 
 We expect that all of your (at least) 12 unit tests will have passed via the command line by the time you turn in the assignment.
 
+you can find the [GitHub Actions](https://github.com/features/actions) script for this CI job [here](.github/workflows/ci.yml) if you want to learn more.
+
 ## Deploying to Heroku
 
 Check out [our instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/hw2) for deploying your application to Heroku. You can use the button below for quick access to your Heroku account.
