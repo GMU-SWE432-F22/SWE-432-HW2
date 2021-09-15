@@ -41,6 +41,14 @@ $ npm start
 
 After executing these commands, your app should now be running on [localhost:3000](http://localhost:3000/). You can visit this in your browser to see your 
 
+## Testing with Continuous Integration
+
+Currently, this repo is set up to run the Jest tests in the `app.test.js` file upon each commit to the `main` branch of the repository. If any of the tests fail, the CI process will fail and this will be indicated with red "X" on the main page of your repo, and GitHub will likely also send you a notification email that your automated tests have failed.
+
+Currently, the tests are configured to run by getting deployed to a remote virtual server with an Ubuntu operating system, and the `npm install` and `npm test` commands are executed. we don't anticpate you needing to change this configuration, as it is fine to keep all of your tests in the `app.test.js` for this assignment. 
+
+We expect that all of your (at least) 12 unit tests will have passed via the command line by the time you turn in the assignment.
+
 ## Deploying to Heroku
 
 Check out [our instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/hw2) for deploying your application to Heroku. You can use the button below for quick access to your Heroku account.
