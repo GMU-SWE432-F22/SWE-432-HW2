@@ -8,6 +8,7 @@
 
 * **Student Name:** 
 * **Student G-Number:** 
+* **Heroku Deployment URL:**
 
 ### Documentation of your 7 Scenarios
 
@@ -30,11 +31,11 @@ You can find the deatiled instructions for HW Assignment #2 on the [course webpa
 
 Make sure you have [Node.js](http://nodejs.org/) and (optionally) the [Heroku CLI](https://cli.heroku.com/) installed. You only need the Heroku CLI installed if you plan to deploy the project from the CLI instead of the Heroku web interface. See the [HW Assignment #2 instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/hw2) for more details.
 
-*Note the following commands assume a Unix-based enviornment. If you are on windows, you may need to use Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/about).*
+*Note the following commands assume a Unix-based enviornment. If you are on windows, you may need to use something such as Windows Subsystem for Linux (https://docs.microsoft.com/en-us/windows/wsl/about).*
 
 ```sh
-$ git clone <this-repo> # or clone your own fork
-$ cd node-js-getting-started
+$ git clone <repo-name>
+$ cd <repo-name>
 $ npm install
 $ npm start
 ```
@@ -51,11 +52,11 @@ Check out [our instructions](https://cs.gmu.edu/~kpmoran/teaching/swe-432-f21/hw
 
 Currently, this repo is set up to run the Jest tests in the `app.test.js` file upon each commit to the `main` branch of the repository. If any of the tests fail, the CI process will fail and this will be indicated with red "X" on the main page of your repo, and GitHub will likely also send you a notification email that your automated tests have failed.
 
-Currently, the tests are configured to run by getting deployed to a remote virtual server with an Ubuntu operating system, where the `npm install` and `npm test` commands are executed. we don't anticpate you needing to change this configuration, as it is fine to keep all of your tests in the `app.test.js` for this assignment. 
+Currently, the tests are configured to run by getting deployed to a remote virtual server with an Ubuntu operating system, where the `npm install` and `npm test` commands are executed. We don't anticpate you needing to change this configuration, as it is fine to keep all of your tests in the `app.test.js` for this assignment. 
 
 We expect that all of your (at least) 12 unit tests will have passed via the command line by the time you turn in the assignment.
 
-you can find the [GitHub Actions](https://github.com/features/actions) script for this CI job [here](.github/workflows/ci.yml) if you want to learn more.
+You can find the [GitHub Actions](https://github.com/features/actions) script for this CI job [here](.github/workflows/ci.yml) if you want to learn more.
 
 ## Additional Resources
 
